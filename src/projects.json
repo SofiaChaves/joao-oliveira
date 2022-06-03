@@ -1,0 +1,84 @@
+ [
+        {
+            "id": "gaki",
+            "name": "Gaki",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+            "site": "https://www.gaki.pt/",
+            "caseStudy": [
+                {
+                    "title": "User Research",
+                    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+                    "images" : [
+                        "test.jpeg",
+                        "test.jpeg"
+                    ]
+                },
+                {
+                    "title": "First Sketches",
+                    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+                    "images" : [
+                        "test.jpeg",
+                        "test.jpeg",
+                        "test.jpeg"
+                    ]
+                },
+                {
+                    "title": "Result",
+                    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+                    "images" : [
+                        "test.jpeg"
+                    ]
+                }
+            ]
+        },
+        
+        {
+            "id": "lady-blue",
+            "name": "Lady Blue",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+            "site": "https://www.gaki.pt/",
+            "caseStudy": [
+                {
+                    "title": "User Research",
+                    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+                    "images" : [
+                        "test.jpeg",
+                        "test.jpeg"
+                    ]
+                },
+                {
+                    "title": "First Sketches",
+                    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+                    "images" : [
+                        "test.jpeg",
+                        "test.jpeg"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "autopicapau",
+            "name": "Autopicapau",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+            "site": "https://www.gaki.pt/",
+            "caseStudy": [
+                {
+                    "title": "User Research",
+                    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+                    "images" : [
+                        "test.jpeg",
+                        "test.jpeg",
+                        "test.jpeg"
+                    ]
+                },
+                {
+                    "title": "First Sketches",
+                    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+                    "images" : [
+                        "test.jpeg",
+                        "test.jpeg"
+                    ]
+                }
+            ]
+        }
+    ]
