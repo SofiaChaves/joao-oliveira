@@ -1,4 +1,4 @@
-import { Navigate, useParams } from 'react-router-dom';
+import { Link, Navigate, useParams } from 'react-router-dom';
 import { Margins } from '../components/Margins';
 import { OutlineTitle } from '../components/OutlineTitle';
 import SubTitle from '../components/SubTitle';
@@ -63,7 +63,12 @@ export function ProjectPage() {
                             images={section.images}
                         />
                     ))}
-                    <div className="text-right"></div>
+                    <div className="flex flex-col items-end text-right">
+                        <Link to={`/${nextProject.id}`}>
+                            <SubTitle>Next Project</SubTitle>
+                            <OutlineTitle>{nextProject.name}</OutlineTitle>
+                        </Link>
+                    </div>
                 </Margins>
             </div>
         </div>
