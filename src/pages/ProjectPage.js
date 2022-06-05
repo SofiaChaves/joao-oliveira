@@ -4,16 +4,7 @@ import { Margins } from '../components/Margins';
 import { OutlineTitle } from '../components/OutlineTitle';
 import SubTitle from '../components/SubTitle';
 import projects from '../projects.json';
-
-function Gallery({ images }) {
-    return (
-        <div className={`grid gap-6 ${cols[images.length]}`}>
-            {images.map((src, i) => (
-                <img key={i} src={src} alt="study case report" />
-            ))}
-        </div>
-    );
-}
+import { Gallery } from '../components/Gallery';
 
 function Section({ title, description, images }) {
     return (
@@ -35,7 +26,9 @@ export function ProjectPage() {
     const nextProject = projects[projects.indexOf(project) + 1] || projects[0];
 
     useEffect(() => {
-        window.scrollTo(0, 0);
+        ref.current.scroll({
+            top: 0,
+        });
     }, [pathname]);
 
     if (!project) {
@@ -43,8 +36,9 @@ export function ProjectPage() {
     }
 
     return (
-        <div className="lg:flex h-full">
-            <div className="lg:sticky top-0 lg:h-screen lg:max-w-xl xl:max-w-3xl w-full">
+        <div className="lg:h-screen lg:flex h-full">
+            {/* Overview */}
+            <div className="lg:max-w-xl xl:max-w-3xl w-full h-full flex">
                 <Margins>
                     <div className="md:h-full flex flex-col justify-between gap-16">
                         <Link to="/">
@@ -55,7 +49,11 @@ export function ProjectPage() {
                         <div className="flex flex-col gap-6">
                             <OutlineTitle>{project.name}</OutlineTitle>
                             <SubTitle>
-                                <a href={project.link} target="_blank">
+                                <a
+                                    href={project.link}
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
                                     Visit Site
                                 </a>
                             </SubTitle>
@@ -68,30 +66,28 @@ export function ProjectPage() {
                 </Margins>
             </div>
 
-            <div className="grow bg-slate-100" ref={ref}>
-                <Margins>
-                    {project.caseStudy.map((section, i) => (
-                        <Section
-                            key={i}
-                            title={section.title}
-                            description={section.description}
-                            images={section.images}
-                        />
-                    ))}
-                    <div className="flex flex-col items-end text-right pb-16">
-                        <Link to={`/${nextProject.id}`}>
-                            <SubTitle>Next Project</SubTitle>
-                            <OutlineTitle>{nextProject.name}</OutlineTitle>
-                        </Link>
-                    </div>
-                </Margins>
+            {/* Details */}
+
+            <div className="grow bg-slate-100 h-full overflow-y-auto" ref={ref}>
+                <div>
+                    <Margins>
+                        {project.caseStudy.map((section, i) => (
+                            <Section
+                                key={i}
+                                title={section.title}
+                                description={section.description}
+                                images={section.images}
+                            />
+                        ))}
+                        <div className="flex flex-col items-end text-right">
+                            <Link to={`/${nextProject.id}`}>
+                                <SubTitle>Next Project</SubTitle>
+                                <OutlineTitle>{nextProject.name}</OutlineTitle>
+                            </Link>
+                        </div>
+                    </Margins>
+                </div>
             </div>
         </div>
     );
 }
-
-const cols = {
-    1: 'grid-cols-1',
-    2: 'grid-cols-2',
-    3: 'grid-cols-3',
-};
