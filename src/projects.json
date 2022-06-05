@@ -2,31 +2,65 @@
         {
             "id": "gaki",
             "name": "Gaki",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+            "description": "I was tasked with designing and developing an e-commerce website for this project. Gaki is a handmade clothing shop for babies and kids. Gaki wanted to differentiate herself from the competition, so she felt the need to build an online shop.We spent three months Working on this project. After many discussions, we had some difficulties getting to a design concept, but we managed to create the perfect solution for Gaki's customers.",
             "site": "https://www.gaki.pt/",
             "caseStudy": [
                 {
-                    "title": "User Research",
-                    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+                    "title": "",
+                    "description":"",
                     "images" : [
-                        "test.jpeg",
-                        "test.jpeg"
+                        "./images/gaki/process.png"
                     ]
                 },
                 {
-                    "title": "First Sketches",
-                    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+                    "title": "",
+                    "description":"The first thing I did was observe the company's existing online brand representation. They were using Instagram as their main point of sales. They had a clean and worked image and a lot of user interaction.",
                     "images" : [
-                        "test.jpeg",
-                        "test.jpeg",
-                        "test.jpeg"
+                        "./images/gaki/research/social-media.png"
                     ]
                 },
                 {
                     "title": "Result",
                     "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
                     "images" : [
-                        "test.jpeg"
+                        "./images/gaki/research/Sketch.png",
+                        "./images/gaki/research/sitemap.png"
+                    ]
+                },
+                {
+                    "title": "Result",
+                    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+                    "images" : [
+                        "./images/gaki/ideation/wireframe 001.png"
+                    ]
+                },
+                {
+                    "title": "Result",
+                    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+                    "images" : [
+                        "./images/gaki/implementation/mockup 001.png",
+                        "./images/gaki/implementation/mockup 002.png",
+                        "./images/gaki/implementation/mockup 003.png"
+                        
+                    ]
+                },
+                {
+                    "title": "Result",
+                    "description":"A simple and vibrant first impression of the app that is designed to increase the likelihood of successful adoption. These screens reinforce our app's value and provide instructions that highlight key benefits and features.",
+                    "images" : [
+                        "./images/gaki/mobile/001.png",
+                        "./images/gaki/mobile/002.png"
+                    ]
+                }
+                ,
+                {
+                    "title": "",
+                    "description":"",
+                    "images" : [
+                        "./images/gaki/mobile/003.png",
+                        "./images/gaki/mobile/004.png",
+                        "./images/gaki/mobile/005.png"
+                        
                     ]
                 }
             ]
@@ -35,12 +69,12 @@
         {
             "id": "lady-blue",
             "name": "Lady Blue",
-            "description": "The Lady Blue Is a hand made clothing shop Focused primarily in women. Their online sales were all made via social media, and they wanted to give the next step, so they contacted me to design, develop, and create their online shop. It was a one month project since the research until the implementation.",
+            "description": "The Lady Blue Is a handmade clothing shop Focused primarily on women. Their online sales were all made via social media, and they wanted to give the next step, so they contacted me to design, develop, and create their online shop. It was a one month project from the research until the implementation.",
             "site": "https://www.gaki.pt/",
             "caseStudy": [
                 {
                     "title": "Product definition",
-                    "description":"I interviewed the owner so we could figure out the key aspects and value proposition of the product. After that, I created an early mockup of the future product. ",
+                    "description":"I interviewed the owner so we could figure out the key aspects and value proposition of the product. After that, I created an early mockup of the future development. ",
                     "images" : [
                         "./images/the-lady-blue/research/Sketch.png"
                     ]
@@ -52,7 +86,7 @@
                 },
                 {
                     "title": "Analysis",
-                    "description":"In this phase we create user personas. You can reference these personas as realistic representations of our target audience. I then created user journeys. It helped me understand the user's point of view.",
+                    "description":"In this phase, we create user personas. You can reference these personas as realistic representations of our target audience. I then created user journeys. It helped me understand the user's point of view.",
                     "images" : [
                         "./images/the-lady-blue/research/Persona.png",
                         "./images/the-lady-blue/research/User Journey.png"
@@ -60,7 +94,7 @@
                 },
                 {
                     "title": "Wireframes",
-                    "description":"After we gather all the information need, we can directly jump into creating wireframes.",
+                    "description":"After we gather all the information needed, we can directly jump into creating wireframes and start our mockups.",
                     "images" : [
                         "./images/the-lady-blue/ideation/Wireframe 001.png",
                         "./images/the-lady-blue/ideation/Wireframe 002.png",
@@ -69,7 +103,7 @@
                 },
                 {
                     "title": "Design",
-                    "description":"After we gather all the information need, we can directly jump into creating wireframes and after that, start our mockups.",
+                    "description":"Let's see how the work came out!",
                     "images" : [
                         "./images/the-lady-blue/implementation/Mockup 001.png",
                         "./images/the-lady-blue/implementation/Mockup 002.png",
