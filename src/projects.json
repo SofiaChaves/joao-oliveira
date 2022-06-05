@@ -54,7 +54,6 @@
                     "title": "Analysis",
                     "description":"In this phase we create user personas. You can reference these personas as realistic representations of our target audience. I then created user journeys. It helped me understand the user's point of view.",
                     "images" : [
-                        "./images/the-lady-blue/research/Sketch.png",
                         "./images/the-lady-blue/research/Persona.png",
                         "./images/the-lady-blue/research/User Journey.png"
                     ]
