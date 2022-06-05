@@ -2,7 +2,7 @@
         {
             "id": "gaki",
             "name": "Gaki",
-            "description": "I was tasked with designing and developing an e-commerce website for this project. Gaki is a handmade clothing shop for babies and kids. Gaki wanted to differentiate herself from the competition, so she felt the need to build an online shop.We spent three months Working on this project. After many discussions, we had some difficulties getting to a design concept, but we managed to create the perfect solution for Gaki's customers.",
+            "description": "I was tasked with designing and developing an e-commerce website for this project. Gaki is a handmade clothing shop for babies and kids. Gaki wanted to differentiate herself from the competition, so she felt the need to build an online shop. We spent three months Working on this project. After many discussions, we had some difficulties getting to a design concept, but we managed to create the perfect solution for Gaki's customers.",
             "site": "https://www.gaki.pt/",
             "caseStudy": [
                 {
@@ -46,7 +46,7 @@
                 },
                 {
                     "title": "Result",
-                    "description":"A simple and vibrant first impression of the app that is designed to increase the likelihood of successful adoption. These screens reinforce our app's value and provide instructions that highlight key benefits and features.",
+                    "description":"A simple and vibrant first impression of the app is designed to increase the likelihood of successful adoption. These screens reinforce our app's value and provide instructions that highlight vital benefits and features.",
                     "images" : [
                         "./images/gaki/mobile/001.png",
                         "./images/gaki/mobile/002.png"
@@ -94,7 +94,7 @@
                 },
                 {
                     "title": "Wireframes",
-                    "description":"After we gather all the information needed, we can directly jump into creating wireframes and start our mockups.",
+                    "description":"After gathering all the information needed, we can directly jump into creating wireframes and start our mockups.",
                     "images" : [
                         "./images/the-lady-blue/ideation/Wireframe 001.png",
                         "./images/the-lady-blue/ideation/Wireframe 002.png",
