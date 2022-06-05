@@ -16,10 +16,14 @@ export function ExpandableImage({ src, alt }) {
                 </Backdrop>
             )}
             <div
-                className="cursor-pointer shadow-xl shadow-slate-200 hover:shadow-slate-300 hover:scale-[1.02] transition-transform select-none"
+                className="flex justify-center"
                 onClick={() => setIsOpen(true)}
             >
-                <img src={src} alt={alt} className="w-full" />
+                <img
+                    className="cursor-pointer shadow-xl shadow-slate-200 hover:shadow-slate-300 hover:scale-[1.02] transition-transform select-none"
+                    src={src}
+                    alt={alt}
+                />
             </div>
         </>
     );
