@@ -8,7 +8,9 @@ export function Backdrop({ onClose, children }) {
         >
             <div className="overflow-y-auto overscroll-contain h-full">
                 <div>
-                    <Margins>{children}</Margins>
+                    <Margins>
+                        <div className="flex justify-center">{children}</div>
+                    </Margins>
                 </div>
             </div>
         </div>
