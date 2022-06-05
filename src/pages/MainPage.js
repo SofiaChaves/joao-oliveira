@@ -17,15 +17,17 @@ function Welcome() {
 
 export function MainPage() {
     return (
-        <Margins>
-            <div className="flex flex-col justify-between h-full">
-                <div className="flex justify-between w-full">
-                    <Welcome />
-                    <Avatar />
-                </div>
+        <div className="h-screen">
+            <Margins>
+                <div className="flex flex-col justify-between h-full">
+                    <div className="flex justify-between w-full">
+                        <Welcome />
+                        <Avatar />
+                    </div>
 
-                <CaseStudies />
-            </div>
-        </Margins>
+                    <CaseStudies />
+                </div>
+            </Margins>
+        </div>
     );
 }

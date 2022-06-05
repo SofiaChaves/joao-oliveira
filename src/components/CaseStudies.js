@@ -8,8 +8,8 @@ export function CaseStudies() {
         <div>
             <SubTitle>Case Studies</SubTitle>
             <div className="flex flex-col flex-wrap lg:flex-row lg:gap-x-10 2xl:gap-x-16 gap-y-6 mt-5">
-                {projects.map((project) => (
-                    <Link to={project.id}>
+                {projects.map((project, i) => (
+                    <Link key={i} to={project.id}>
                         <OutlineTitle>{project.name}</OutlineTitle>
                     </Link>
                 ))}
