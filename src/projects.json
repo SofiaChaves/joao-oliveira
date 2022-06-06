@@ -6,37 +6,37 @@
             "site": "https://www.gaki.pt/",
             "caseStudy": [
                 {
-                    "title": "",
-                    "description":"",
+                    "title": "Process",
+                    "description":"We all know UX processes will always depend on the type of product you are designing. Different projects require different approaches, and for this particular project, this was my approach.",
                     "images" : [
                         "./images/gaki/process.png"
                     ]
                 },
                 {
-                    "title": "",
-                    "description":"The first thing I did was observe the company's existing online brand representation. They were using Instagram as their main point of sales. They had a clean and worked image and a lot of user interaction.",
+                    "title": "Research",
+                    "description":"After interviewing the owner, the first thing that I did was observe the company's existing online brand representation. They were using Instagram as their main point of sales. They had a clean and worked image and a lot of user interaction. I searched some websites to start looking for intel on that type of market. I needed to see the competition to know where we could differentiate ourselves from them.",
                     "images" : [
                         "./images/gaki/research/social-media.png"
                     ]
                 },
                 {
-                    "title": "Result",
-                    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+                    "title": "",
+                    "description":"We created our site map and our first sketch.",
                     "images" : [
                         "./images/gaki/research/Sketch.png",
                         "./images/gaki/research/sitemap.png"
                     ]
                 },
                 {
-                    "title": "Result",
-                    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+                    "title": "Ideation",
+                    "description":"I then created the wireframes to understand better what the website would look like in the end.",
                     "images" : [
                         "./images/gaki/ideation/wireframe 001.png"
                     ]
                 },
                 {
-                    "title": "Result",
-                    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+                    "title": "Design",
+                    "description":"After some internal testing, I then proceed to create mockups. I made three different approaches to meet all the client's expectations.",
                     "images" : [
                         "./images/gaki/implementation/mockup 001.png",
                         "./images/gaki/implementation/mockup 002.png",
@@ -45,23 +45,9 @@
                     ]
                 },
                 {
-                    "title": "Result",
-                    "description":"A simple and vibrant first impression of the app is designed to increase the likelihood of successful adoption. These screens reinforce our app's value and provide instructions that highlight vital benefits and features.",
-                    "images" : [
-                        "./images/gaki/mobile/001.png",
-                        "./images/gaki/mobile/002.png"
-                    ]
-                }
-                ,
-                {
                     "title": "",
-                    "description":"",
-                    "images" : [
-                        "./images/gaki/mobile/003.png",
-                        "./images/gaki/mobile/004.png",
-                        "./images/gaki/mobile/005.png"
-                        
-                    ]
+                    "description":"After a few adjustments, we ended with our 'final' version, so I started developing it. You can check the final product out in the link on the left.",
+                    "images" : []
                 }
             ]
         },
