@@ -1,4 +1,50 @@
  [
+    {
+        "id": "lady-blue",
+        "name": "Lady Blue",
+        "description": "The Lady Blue Is a handmade clothing shop Focused primarily on women. Their online sales were all made via social media, and they wanted to give the next step, so they contacted me to design, develop, and create their online shop. It was a one month project from the research until the implementation.",
+        "site": "https://www.gaki.pt/",
+        "caseStudy": [
+            {
+                "title": "Product definition",
+                "description":"I interviewed the owner so we could figure out the key aspects and value proposition of the product. After that, I created an early mockup of the future development. ",
+                "images" : [
+                    "./images/the-lady-blue/research/Sketch.png"
+                ]
+            },
+            {
+                "title": "Research",
+                "description":"These phase is the most variable between projects. It depends on the complexity of the product, timing, available resources and many other factors. In this case, I started with competitive research. It helped me understand these industry standards.",
+                "images" : []
+            },
+            {
+                "title": "Analysis",
+                "description":"In this phase, we create user personas. You can reference these personas as realistic representations of our target audience. I then created user journeys. It helped me understand the user's point of view.",
+                "images" : [
+                    "./images/the-lady-blue/research/Persona.png",
+                    "./images/the-lady-blue/research/User Journey.png"
+                ]
+            },
+            {
+                "title": "Wireframes",
+                "description":"After gathering all the information needed, we can directly jump into creating wireframes and start our mockups.",
+                "images" : [
+                    "./images/the-lady-blue/ideation/Wireframe 001.png",
+                    "./images/the-lady-blue/ideation/Wireframe 002.png",
+                    "./images/the-lady-blue/ideation/Wireframe 003.png"
+                ]
+            },
+            {
+                "title": "Design",
+                "description":"Let's see how the work came out!",
+                "images" : [
+                    "./images/the-lady-blue/implementation/Mockup 001.png",
+                    "./images/the-lady-blue/implementation/Mockup 002.png",
+                    "./images/the-lady-blue/implementation/Mockup 003.png"
+                ]
+            }
+        ]
+    },
         {
             "id": "gaki",
             "name": "Gaki",
@@ -50,52 +96,7 @@
                     "images" : []
                 }
             ]
-        },
-        
-        {
-            "id": "lady-blue",
-            "name": "Lady Blue",
-            "description": "The Lady Blue Is a handmade clothing shop Focused primarily on women. Their online sales were all made via social media, and they wanted to give the next step, so they contacted me to design, develop, and create their online shop. It was a one month project from the research until the implementation.",
-            "site": "https://www.gaki.pt/",
-            "caseStudy": [
-                {
-                    "title": "Product definition",
-                    "description":"I interviewed the owner so we could figure out the key aspects and value proposition of the product. After that, I created an early mockup of the future development. ",
-                    "images" : [
-                        "./images/the-lady-blue/research/Sketch.png"
-                    ]
-                },
-                {
-                    "title": "Research",
-                    "description":"These phase is the most variable between projects. It depends on the complexity of the product, timing, available resources and many other factors. In this case, I started with competitive research. It helped me understand these industry standards.",
-                    "images" : []
-                },
-                {
-                    "title": "Analysis",
-                    "description":"In this phase, we create user personas. You can reference these personas as realistic representations of our target audience. I then created user journeys. It helped me understand the user's point of view.",
-                    "images" : [
-                        "./images/the-lady-blue/research/Persona.png",
-                        "./images/the-lady-blue/research/User Journey.png"
-                    ]
-                },
-                {
-                    "title": "Wireframes",
-                    "description":"After gathering all the information needed, we can directly jump into creating wireframes and start our mockups.",
-                    "images" : [
-                        "./images/the-lady-blue/ideation/Wireframe 001.png",
-                        "./images/the-lady-blue/ideation/Wireframe 002.png",
-                        "./images/the-lady-blue/ideation/Wireframe 003.png"
-                    ]
-                },
-                {
-                    "title": "Design",
-                    "description":"Let's see how the work came out!",
-                    "images" : [
-                        "./images/the-lady-blue/implementation/Mockup 001.png",
-                        "./images/the-lady-blue/implementation/Mockup 002.png",
-                        "./images/the-lady-blue/implementation/Mockup 003.png"
-                    ]
-                }
-            ]
         }
+        
+        
     ]
