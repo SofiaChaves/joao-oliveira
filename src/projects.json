@@ -6,6 +6,20 @@
         "site": "https://www.gaki.pt/",
         "caseStudy": [
             {
+                "title": "",
+                "description":"",
+                "images" : [
+                    "./images/the-lady-blue/tlb-main.png"
+                ]
+            },
+            {
+                "title": "Process",
+                "description":"We all know UX processes will always depend on the type of product you are designing. Different projects require different approaches, and for this particular project, this was my approach.",
+                "images" : [
+                    "./images/process.png"
+                ]
+            },
+            {
                 "title": "Product definition",
                 "description":"I interviewed the owner so we could figure out the key aspects and value proposition of the product. After that, I created an early mockup of the future development. ",
                 "images" : [
@@ -52,10 +66,17 @@
             "site": "https://www.gaki.pt/",
             "caseStudy": [
                 {
+                    "title": "",
+                    "description":"",
+                    "images" : [
+                        "./images/gaki/gaki-main.png"
+                    ]
+                },
+                {
                     "title": "Process",
                     "description":"We all know UX processes will always depend on the type of product you are designing. Different projects require different approaches, and for this particular project, this was my approach.",
                     "images" : [
-                        "./images/gaki/process.png"
+                        "./images/process.png"
                     ]
                 },
                 {
@@ -67,10 +88,9 @@
                 },
                 {
                     "title": "",
-                    "description":"We created our site map and our first sketch. Making an early mockup of the future product can help us visualise it and see what we will need. After setting both my client's and the product expectations, I started the designing process.",
+                    "description":"The client and I created the site map and our first sketch. Making an early representation of the future product can help us visualise it and see what we will need. After setting both my client's and the product expectations, I started the designing process.",
                     "images" : [
-                        "./images/gaki/research/Sketch.png",
-                        "./images/gaki/research/sitemap.png"
+                        "./images/gaki/research/Sketch.png"
                     ]
                 },
                 {
