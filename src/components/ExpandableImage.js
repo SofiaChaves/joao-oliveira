@@ -20,7 +20,7 @@ export function ExpandableImage({ src, alt }) {
                 onClick={() => setIsOpen(true)}
             >
                 <img
-                    className="cursor-pointer shadow-xl shadow-slate-200 hover:shadow-slate-300 hover:scale-[1.02] transition-transform select-none"
+                    className="cursor-pointer hover:shadow-xl shadow-slate-200 hover:shadow-slate-300 hover:scale-[1.02] transition-transform select-none"
                     src={src}
                     alt={alt}
                 />
