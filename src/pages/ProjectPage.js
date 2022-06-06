@@ -5,6 +5,8 @@ import { OutlineTitle } from '../components/OutlineTitle';
 import SubTitle from '../components/SubTitle';
 import projects from '../projects.json';
 import { Gallery } from '../components/Gallery';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 function Section({ title, description, images }) {
     return (
@@ -42,26 +44,34 @@ export function ProjectPage() {
                 <Margins>
                     <div className="md:h-full flex flex-col justify-between gap-16">
                         <Link to="/">
-                            <h1 className="text-3xl xl:text-5xl font-bold uppercase">
+                            <h1 className="text-3xl xl:text-5xl font-bold uppercase mb-4">
                                 Joao Oliveira
                             </h1>
+                            <SubTitle>Back to Homepage</SubTitle>
                         </Link>
                         <div className="flex flex-col gap-6">
                             <OutlineTitle>{project.name}</OutlineTitle>
                             <SubTitle>
                                 <a
-                                    href={project.link}
+                                    href={project.site}
                                     target="_blank"
                                     rel="noreferrer"
+                                    className="hover:underline decoration-2 underline-offset-8"
                                 >
-                                    Visit Site
+                                    Visit Site{' '}
+                                    <FontAwesomeIcon icon={faArrowRight} />
                                 </a>
                             </SubTitle>
                             <p>{project.description}</p>
                         </div>
-                        <div className="text-center">
-                            <SubTitle>Let's Work Together</SubTitle>
-                        </div>
+                        <a
+                            href="https://www.linkedin.com/in/joao-aguiam/"
+                            className="text-center underline decoration-2 underline-offset-8 decoration-wavy hover:scale-105 transition-all"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <SubTitle>Let's Work Together!</SubTitle>
+                        </a>
                     </div>
                 </Margins>
             </div>
@@ -80,9 +90,14 @@ export function ProjectPage() {
                             />
                         ))}
                         <div className="flex flex-col items-end text-right">
-                            <Link to={`/${nextProject.id}`}>
-                                <SubTitle>Next Project</SubTitle>
-                                <OutlineTitle>{nextProject.name}</OutlineTitle>
+                            <Link
+                                to={`/${nextProject.id}`}
+                                className="hover:scale-[1.03] transition-all"
+                            >
+                                <SubTitle>Go to Next Project</SubTitle>
+                                <OutlineTitle color="text-slate-100">
+                                    {nextProject.name}
+                                </OutlineTitle>
                             </Link>
                         </div>
                     </Margins>
