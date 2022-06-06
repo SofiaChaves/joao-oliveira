@@ -4,7 +4,7 @@ import { ProjectPage } from './pages/ProjectPage';
 
 function App() {
     return (
-        <div className="debug-screens">
+        <div>
             <BrowserRouter>
                 <Routes>
                     <Route index element={<MainPage />} />
