@@ -1,4 +1,64 @@
  [
+    {
+        "id": "lady-blue",
+        "name": "Lady Blue",
+        "description": "The Lady Blue Is a handmade clothing shop Focused primarily on women. Their online sales were all made via social media, and they wanted to give the next step, so they contacted me to design, develop, and create their online shop. It was a one month project from the research until the implementation.",
+        "site": "https://www.gaki.pt/",
+        "caseStudy": [
+            {
+                "title": "",
+                "description":"",
+                "images" : [
+                    "./images/the-lady-blue/tlb-main.png"
+                ]
+            },
+            {
+                "title": "Process",
+                "description":"We all know UX processes will always depend on the type of product you are designing. Different projects require different approaches, and for this particular project, this was my approach.",
+                "images" : [
+                    "./images/process.png"
+                ]
+            },
+            {
+                "title": "Product definition",
+                "description":"I interviewed the owner so we could figure out the key aspects and value proposition of the product. After that, I created an early mockup of the future development. ",
+                "images" : [
+                    "./images/the-lady-blue/research/Sketch.png"
+                ]
+            },
+            {
+                "title": "Research",
+                "description":"These phase is the most variable between projects. It depends on the complexity of the product, timing, available resources and many other factors. In this case, I started with competitive research. It helped me understand these industry standards.",
+                "images" : []
+            },
+            {
+                "title": "Analysis",
+                "description":"In this phase, we create user personas. You can reference these personas as realistic representations of our target audience. I then created user journeys. It helped me understand the user's point of view.",
+                "images" : [
+                    "./images/the-lady-blue/research/Persona.png",
+                    "./images/the-lady-blue/research/User Journey.png"
+                ]
+            },
+            {
+                "title": "Wireframes",
+                "description":"After gathering all the information needed, we can directly jump into creating wireframes and start our mockups.",
+                "images" : [
+                    "./images/the-lady-blue/ideation/Wireframe 001.png",
+                    "./images/the-lady-blue/ideation/Wireframe 002.png",
+                    "./images/the-lady-blue/ideation/Wireframe 003.png"
+                ]
+            },
+            {
+                "title": "Design",
+                "description":"Let's see how the work came out!",
+                "images" : [
+                    "./images/the-lady-blue/implementation/Mockup 001.png",
+                    "./images/the-lady-blue/implementation/Mockup 002.png",
+                    "./images/the-lady-blue/implementation/Mockup 003.png"
+                ]
+            }
+        ]
+    },
         {
             "id": "gaki",
             "name": "Gaki",
@@ -6,10 +66,17 @@
             "site": "https://www.gaki.pt/",
             "caseStudy": [
                 {
+                    "title": "",
+                    "description":"",
+                    "images" : [
+                        "./images/gaki/gaki-main.png"
+                    ]
+                },
+                {
                     "title": "Process",
                     "description":"We all know UX processes will always depend on the type of product you are designing. Different projects require different approaches, and for this particular project, this was my approach.",
                     "images" : [
-                        "./images/gaki/process.png"
+                        "./images/process.png"
                     ]
                 },
                 {
@@ -21,10 +88,9 @@
                 },
                 {
                     "title": "",
-                    "description":"We created our site map and our first sketch. Making an early mockup of the future product can help us visualise it and see what we will need. After setting both my client's and the product expectations, I started the designing process.",
+                    "description":"The client and I created the site map and our first sketch. Making an early representation of the future product can help us visualise it and see what we will need. After setting both my client's and the product expectations, I started the designing process.",
                     "images" : [
-                        "./images/gaki/research/Sketch.png",
-                        "./images/gaki/research/sitemap.png"
+                        "./images/gaki/research/Sketch.png"
                     ]
                 },
                 {
@@ -50,77 +116,7 @@
                     "images" : []
                 }
             ]
-        },
-        
-        {
-            "id": "lady-blue",
-            "name": "Lady Blue",
-            "description": "The Lady Blue Is a handmade clothing shop Focused primarily on women. Their online sales were all made via social media, and they wanted to give the next step, so they contacted me to design, develop, and create their online shop. It was a one month project from the research until the implementation.",
-            "site": "https://www.gaki.pt/",
-            "caseStudy": [
-                {
-                    "title": "Product definition",
-                    "description":"I interviewed the owner so we could figure out the key aspects and value proposition of the product. After that, I created an early mockup of the future development. ",
-                    "images" : [
-                        "./images/the-lady-blue/research/Sketch.png"
-                    ]
-                },
-                {
-                    "title": "Research",
-                    "description":"These phase is the most variable between projects. It depends on the complexity of the product, timing, available resources and many other factors. In this case, I started with competitive research. It helped me understand these industry standards.",
-                    "images" : []
-                },
-                {
-                    "title": "Analysis",
-                    "description":"In this phase, we create user personas. You can reference these personas as realistic representations of our target audience. I then created user journeys. It helped me understand the user's point of view.",
-                    "images" : [
-                        "./images/the-lady-blue/research/Persona.png",
-                        "./images/the-lady-blue/research/User Journey.png"
-                    ]
-                },
-                {
-                    "title": "Wireframes",
-                    "description":"After gathering all the information needed, we can directly jump into creating wireframes and start our mockups.",
-                    "images" : [
-                        "./images/the-lady-blue/ideation/Wireframe 001.png",
-                        "./images/the-lady-blue/ideation/Wireframe 002.png",
-                        "./images/the-lady-blue/ideation/Wireframe 003.png"
-                    ]
-                },
-                {
-                    "title": "Design",
-                    "description":"Let's see how the work came out!",
-                    "images" : [
-                        "./images/the-lady-blue/implementation/Mockup 001.png",
-                        "./images/the-lady-blue/implementation/Mockup 002.png",
-                        "./images/the-lady-blue/implementation/Mockup 003.png"
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "autopicapau",
-            "name": "Autopicapau",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-            "site": "https://www.gaki.pt/",
-            "caseStudy": [
-                {
-                    "title": "User Research",
-                    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-                    "images" : [
-                        "test.jpeg",
-                        "test.jpeg",
-                        "test.jpeg"
-                    ]
-                },
-                {
-                    "title": "First Sketches",
-                    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-                    "images" : [
-                        "test.jpeg",
-                        "test.jpeg"
-                    ]
-                }
-            ]
         }
+        
+        
     ]

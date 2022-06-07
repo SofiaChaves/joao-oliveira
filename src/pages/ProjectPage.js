@@ -10,7 +10,7 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 function Section({ title, description, images }) {
     return (
-        <div className="flex flex-col gap-6 mb-16">
+        <div className="flex flex-col gap-6 mb-20">
             <SubTitle>{title}</SubTitle>
             {description}
             <Gallery images={images} />
