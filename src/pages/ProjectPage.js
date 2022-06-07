@@ -13,7 +13,7 @@ function Section({ title, description, images }) {
         <div className="flex flex-col gap-6 mb-16">
             <SubTitle>{title}</SubTitle>
             {description}
-            <Gallery images={images}></Gallery>
+            <Gallery images={images} />
         </div>
     );
 }
@@ -38,7 +38,7 @@ export function ProjectPage() {
     }
 
     return (
-        <div className="lg:h-screen lg:flex h-full">
+        <div className="h-screen flex flex-col lg:flex-row h-full overflow-auto lg:overflow-none">
             {/* Overview */}
             <div className="lg:max-w-xl xl:max-w-3xl w-full h-full flex">
                 <Margins>
@@ -78,7 +78,10 @@ export function ProjectPage() {
 
             {/* Details */}
 
-            <div className="grow bg-slate-100 h-full overflow-y-auto" ref={ref}>
+            <div
+                className="grow bg-slate-100 lg:h-full lg:overflow-y-auto"
+                ref={ref}
+            >
                 <div>
                     <Margins>
                         {project.caseStudy.map((section, i) => (
