@@ -5,15 +5,34 @@ import { OutlineTitle } from '../components/OutlineTitle';
 import SubTitle from '../components/SubTitle';
 import projects from '../projects.json';
 import { Gallery } from '../components/Gallery';
+import { Carousel } from '../components/Carousel';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { ExpandableImage } from '../components/ExpandableImage';
 
-function Section({ title, description, images }) {
+function Section({ data }) {
     return (
-        <div className="flex flex-col gap-6 mb-20">
-            <SubTitle>{title}</SubTitle>
-            {description}
-            <Gallery images={images} />
+        <div
+            className={`grid ${
+                !data.isVertical && data.images?.length > 0
+                    ? 'grid-cols-2'
+                    : 'grid-cols-1'
+            } gap-20 mb-28 items-center`}
+        >
+            <div className={data.imagesFirst ? 'order-last' : ''}>
+                <SubTitle>{data.title}</SubTitle>
+                {data.description}
+            </div>
+
+            {data.images?.length === 1 && (
+                <img src={data.images[0]} className="mx-auto" />
+            )}
+            {!data.isVertical && data.images?.length > 1 && (
+                <Carousel images={data.images} />
+            )}
+            {data.isVertical && data.images?.length > 1 && (
+                <Gallery images={data.images} />
+            )}
         </div>
     );
 }
@@ -85,12 +104,7 @@ export function ProjectPage() {
                 <div>
                     <Margins>
                         {project.caseStudy.map((section, i) => (
-                            <Section
-                                key={i}
-                                title={section.title}
-                                description={section.description}
-                                images={section.images}
-                            />
+                            <Section key={i} data={section} />
                         ))}
                         <div className="flex flex-col items-end text-right">
                             <Link
