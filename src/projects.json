@@ -1,122 +1,103 @@
- [
-    {
-        "id": "lady-blue",
-        "name": "Lady Blue",
-        "description": "The Lady Blue Is a handmade clothing shop Focused primarily on women. Their online sales were all made via social media, and they wanted to give the next step, so they contacted me to design, develop, and create their online shop. It was a one month project from the research until the implementation.",
-        "site": "https://www.gaki.pt/",
-        "caseStudy": [
-            {
-                "title": "",
-                "description":"",
-                "images" : [
-                    "./images/the-lady-blue/tlb-main.png"
-                ]
-            },
-            {
-                "title": "Process",
-                "description":"We all know UX processes will always depend on the type of product you are designing. Different projects require different approaches, and for this particular project, this was my approach.",
-                "images" : [
-                    "./images/process.png"
-                ]
-            },
-            {
-                "title": "Product definition",
-                "description":"I interviewed the owner so we could figure out the key aspects and value proposition of the product. After that, I created an early mockup of the future development. ",
-                "images" : [
-                    "./images/the-lady-blue/research/Sketch.png"
-                ]
-            },
-            {
-                "title": "Research",
-                "description":"These phase is the most variable between projects. It depends on the complexity of the product, timing, available resources and many other factors. In this case, I started with competitive research. It helped me understand these industry standards.",
-                "images" : []
-            },
-            {
-                "title": "Analysis",
-                "description":"In this phase, we create user personas. You can reference these personas as realistic representations of our target audience. I then created user journeys. It helped me understand the user's point of view.",
-                "images" : [
-                    "./images/the-lady-blue/research/Persona.png",
-                    "./images/the-lady-blue/research/User Journey.png"
-                ]
-            },
-            {
-                "title": "Wireframes",
-                "description":"After gathering all the information needed, we can directly jump into creating wireframes and start our mockups.",
-                "images" : [
-                    "./images/the-lady-blue/ideation/Wireframe 001.png",
-                    "./images/the-lady-blue/ideation/Wireframe 002.png",
-                    "./images/the-lady-blue/ideation/Wireframe 003.png"
-                ]
-            },
-            {
-                "title": "Design",
-                "description":"Let's see how the work came out!",
-                "images" : [
-                    "./images/the-lady-blue/implementation/Mockup 001.png",
-                    "./images/the-lady-blue/implementation/Mockup 002.png",
-                    "./images/the-lady-blue/implementation/Mockup 003.png"
-                ]
-            }
-        ]
-    },
-        {
-            "id": "gaki",
-            "name": "Gaki",
-            "description": "I was tasked with designing and developing an e-commerce website for this project. Gaki is a handmade clothing shop for babies and kids. Gaki wanted to differentiate herself from the competition, so she felt the need to build an online shop. We spent three months Working on this project. After many discussions, we had some difficulties getting to a design concept, but we managed to create the perfect solution for Gaki's customers.",
-            "site": "https://www.gaki.pt/",
-            "caseStudy": [
-                {
-                    "title": "",
-                    "description":"",
-                    "images" : [
-                        "./images/gaki/gaki-main.png"
-                    ]
-                },
-                {
-                    "title": "Process",
-                    "description":"We all know UX processes will always depend on the type of product you are designing. Different projects require different approaches, and for this particular project, this was my approach.",
-                    "images" : [
-                        "./images/process.png"
-                    ]
-                },
-                {
-                    "title": "Research",
-                    "description":"After interviewing the owner, the first thing that I did was observe the company's existing online brand representation. They were using Instagram as their main point of sales. They had a clean and worked image and a lot of user interaction. I searched some websites to start looking for intel on that type of market. I needed to see the competition to know where we could differentiate ourselves from them.",
-                    "images" : [
-                        "./images/gaki/research/social-media.png"
-                    ]
-                },
-                {
-                    "title": "",
-                    "description":"The client and I created the site map and our first sketch. Making an early representation of the future product can help us visualise it and see what we will need. After setting both my client's and the product expectations, I started the designing process.",
-                    "images" : [
-                        "./images/gaki/research/Sketch.png"
-                    ]
-                },
-                {
-                    "title": "Ideation",
-                    "description":"I then created the wireframes to understand better what the website would look like in the end.",
-                    "images" : [
-                        "./images/gaki/ideation/wireframe 001.png"
-                    ]
-                },
-                {
-                    "title": "Design",
-                    "description":"After some internal testing, I then proceed to create mockups. I made three different approaches to meet all the client's expectations.",
-                    "images" : [
-                        "./images/gaki/implementation/mockup 001.png",
-                        "./images/gaki/implementation/mockup 002.png",
-                        "./images/gaki/implementation/mockup 003.png"
-                        
-                    ]
-                },
-                {
-                    "title": "",
-                    "description":"After a few adjustments, we ended with our 'final' version, so I started developing it. You can check the final product out in the link on the left.",
-                    "images" : []
-                }
-            ]
-        }
-        
-        
-    ]
+[
+	{
+		"id": "lady-blue",
+		"name": "Lady Blue",
+		"description": "The Lady Blue Is a handmade clothing shop Focused primarily on women. Their online sales were all made via social media, and they wanted to give the next step, so they contacted me to design, develop, and create their online shop. It was a one month project from the research until the implementation.",
+		"site": "https://theladyblue.pt/",
+		"caseStudy": [
+			{
+				"title": "",
+				"description": "",
+				"images": ["./images/the-lady-blue/tlb-main.png"]
+			},
+			{
+				"title": "Process",
+				"description": "We all know UX processes will always depend on the type of product you are designing. Different projects require different approaches, and for this particular project, this was my approach.",
+				"images": ["./images/process.png"]
+			},
+			{
+				"title": "Product definition",
+				"description": "I interviewed the owner so we could figure out the key aspects and value proposition of the product. After that, I created an early mockup of the future development. ",
+				"images": ["./images/the-lady-blue/research/Sketch.png"]
+			},
+			{
+				"title": "Research",
+				"description": "These phase is the most variable between projects. It depends on the complexity of the product, timing, available resources and many other factors. In this case, I started with competitive research. It helped me understand these industry standards.",
+				"images": []
+			},
+			{
+				"title": "Analysis",
+				"description": "In this phase, we create user personas. You can reference these personas as realistic representations of our target audience. I then created user journeys. It helped me understand the user's point of view.",
+				"images": [
+					"./images/the-lady-blue/research/Persona.png",
+					"./images/the-lady-blue/research/User Journey.png"
+				]
+			},
+			{
+				"title": "Wireframes",
+				"description": "After gathering all the information needed, we can directly jump into creating wireframes and start our mockups.",
+				"images": [
+					"./images/the-lady-blue/ideation/Wireframe 001.png",
+					"./images/the-lady-blue/ideation/Wireframe 002.png",
+					"./images/the-lady-blue/ideation/Wireframe 003.png"
+				]
+			},
+			{
+				"title": "Design",
+				"description": "Let's see how the work came out!",
+				"images": [
+					"./images/the-lady-blue/implementation/Mockup 001.png",
+					"./images/the-lady-blue/implementation/Mockup 002.png",
+					"./images/the-lady-blue/implementation/Mockup 003.png"
+				]
+			}
+		]
+	},
+	{
+		"id": "gaki",
+		"name": "Gaki",
+		"description": "I was tasked with designing and developing an e-commerce website for this project. Gaki is a handmade clothing shop for babies and kids. Gaki wanted to differentiate herself from the competition, so she felt the need to build an online shop. We spent three months Working on this project. After many discussions, we had some difficulties getting to a design concept, but we managed to create the perfect solution for Gaki's customers.",
+		"site": "https://www.gaki.pt/",
+		"caseStudy": [
+			{
+				"title": "",
+				"description": "",
+				"images": ["./images/gaki/gaki-main.png"]
+			},
+			{
+				"title": "Process",
+				"description": "We all know UX processes will always depend on the type of product you are designing. Different projects require different approaches, and for this particular project, this was my approach.",
+				"images": ["./images/process.png"]
+			},
+			{
+				"title": "Research",
+				"description": "After interviewing the owner, the first thing that I did was observe the company's existing online brand representation. They were using Instagram as their main point of sales. They had a clean and worked image and a lot of user interaction. I searched some websites to start looking for intel on that type of market. I needed to see the competition to know where we could differentiate ourselves from them.",
+				"images": ["./images/gaki/research/social-media.png"]
+			},
+			{
+				"title": "",
+				"description": "The client and I created the site map and our first sketch. Making an early representation of the future product can help us visualise it and see what we will need. After setting both my client's and the product expectations, I started the designing process.",
+				"images": ["./images/gaki/research/Sketch.png"]
+			},
+			{
+				"title": "Ideation",
+				"description": "I then created the wireframes to understand better what the website would look like in the end.",
+				"images": ["./images/gaki/ideation/wireframe 001.png"]
+			},
+			{
+				"title": "Design",
+				"description": "After some internal testing, I then proceed to create mockups. I made three different approaches to meet all the client's expectations.",
+				"images": [
+					"./images/gaki/implementation/mockup 001.png",
+					"./images/gaki/implementation/mockup 002.png",
+					"./images/gaki/implementation/mockup 003.png"
+				]
+			},
+			{
+				"title": "",
+				"description": "After a few adjustments, we ended with our 'final' version, so I started developing it. You can check the final product out in the link on the left.",
+				"images": []
+			}
+		]
+	}
+]
